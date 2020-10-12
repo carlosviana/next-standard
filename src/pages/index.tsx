@@ -1,17 +1,21 @@
 import React from 'react'
 import Head from 'next/head'
 
+import Rocketseat from '../assets/rocketseat.svg'
+import { Container } from '../styles/pages/Home'
+
+
 const Home: React.FC = () => {
   return (
-    <div>
+    <Container>
       <Head>
-        <title>Create Next App</title>
+        <title>Homepage standard</title>
       </Head>
 
-      <main>
-        <h1>Hello World!</h1>
-      </main>
-    </div>
+          <Rocketseat/>
+        <h1>React Structure</h1>
+        <p>A ReactJS + Next.js structure.</p>
+    </Container>
   )
 }
 
